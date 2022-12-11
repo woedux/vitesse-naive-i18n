@@ -1,8 +1,9 @@
 <script setup lang="ts">
+import { NAlert } from 'naive-ui'
 defineOptions({
   name: 'IndexPage',
 })
-
+const { t, locale } = useI18n()
 const name = $ref('')
 
 const router = useRouter()
@@ -13,7 +14,11 @@ const go = () => {
 </script>
 
 <template>
+  {{ locale }} {{ t('greets') }}
   <div>
+    <NAlert title="Success Text" type="success">
+      Naive ui loaded
+    </NAlert>
     <div i-carbon-campsite text-4xl inline-block />
     <p>
       <a rel="noreferrer" href="https://github.com/antfu/vitesse-lite" target="_blank">
