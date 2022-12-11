@@ -57,19 +57,21 @@ See [Vitesse](https://github.com/antfu/vitesse) for full featureset.
 - [`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components) - components auto import
 - [`unplugin-vue-macros`](https://github.com/sxzz/unplugin-vue-macros) - Explore and extend more macros and syntax sugar to Vue.
 - [VueUse](https://github.com/antfu/vueuse) - collection of useful composition APIs
+- [Vue I18n](https://github.com/intlify/vue-i18n-next) - Internationalization
+  - [`vite-plugin-vue-i18n`](https://github.com/intlify/bundle-tools/tree/main/packages/vite-plugin-vue-i18n) - Vite plugin for Vue I18n
 
 ## Try it now!
 
 ### GitHub Template
 
-[Create a repo from this template on GitHub](https://github.com/antfu/vitesse-lite/generate).
+[Create a repo from this template on GitHub](https://github.com/woedux/vitesse-lite/generate).
 
 ### Clone to local
 
 If you prefer to do it manually with the cleaner git history
 
 ```bash
-npx degit antfu/vitesse-lite my-vitesse-app
+npx degit woedux/vitesse-naive-i18n my-vitesse-app
 cd my-vitesse-app
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 ```
