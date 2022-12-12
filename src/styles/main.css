@@ -1,0 +1,29 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Brush Script MT;
+  src: url(./fonts/BRUSHSCI.TTF);
+}
+@font-face {
+  font-family: 'Twemoji Country Flags';
+  unicode-range: U+1F1E6-1F1FF, U+1F3F4, U+E0062-E0063, U+E0065, U+E0067, U+E006C, U+E006E, U+E0073-E0074, U+E0077, U+E007F;
+  src: url(./fonts/TwemojiCountryFlags.woff2);
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-row: 1 / -1;
+}
+.nav {
+  background-color: gray;
+}
+.content {
+  background-color: pink;
+}

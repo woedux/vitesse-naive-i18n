@@ -1,0 +1,8 @@
+nav:
+  create: Create
+  edit: Edit
+  settings:
+    logout: Exit
+    label: Settings
+    locale: Language
+    theme: Theme toggle

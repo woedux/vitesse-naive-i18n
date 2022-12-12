@@ -1,0 +1,9 @@
+nav:
+  create: Создать
+  edit: Редактировать
+  logout: Выход
+  settings:
+    logout: Выход
+    locale: Язык
+    label: Настройки
+    theme: Переключение темы
